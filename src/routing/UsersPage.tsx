@@ -1,5 +1,6 @@
-import { Outlet } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
 import UserList from "./UserList";
+import useAuth from "./hooks/useAuth";
 
 const UsersPage = () => {
   return (
